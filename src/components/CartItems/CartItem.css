@@ -1,0 +1,63 @@
+/* .item{
+    list-style: none;
+    background-color:#ccc;
+    max-height:  20rem;
+    padding: 2px;
+
+} */
+
+.listrow{
+
+list-style: none;
+margin: 0;
+max-height: 20rem;
+overflow: auto;
+padding: 0;
+}
+
+.title{
+    position: relative;
+    left: 5rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(156, 152, 152);;
+}
+
+.price{
+    position: relative;
+    left: 10rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+border-bottom: 1px solid rgb(156, 152, 152);
+}
+.quantity{
+    position: relative;
+    left: 12rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(156, 152, 152);;
+}
+
+.total{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-order{
+    
+    position: relative;
+    left: 12rem;
+    top: 6rem;
+    width: auto;
+    height: 2rem;
+    font-size: 15px;
+    background-color:skyblue;
+    color: white !important;
+    border-radius:3px;
+    border-style: none;
+    border-bottom: 1px gold;
+}

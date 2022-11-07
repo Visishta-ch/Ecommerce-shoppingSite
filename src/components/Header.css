@@ -1,0 +1,85 @@
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 0.2em;
+    position:fixed;
+    width: 100%;
+    height:60px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing:3.5px;
+    font-weight: bold;
+}
+.header{
+    position: relative;
+    top: 2.3rem;
+}
+.cart-btn{
+    position: relative;
+    float:right;
+    /* top: -44px;
+    left: -72px; */
+    border-radius: 5px;
+    outline: none;
+    width: 60px;
+    height:  30px;
+    
+}
+.cart-number{
+    position: relative;
+    float:right;
+    /* top: -44px; */
+}
+
+.page-header{
+    /* position:fixed; */
+    padding-top: 6rem;
+    color:navy;
+    background-color:#ccc;
+    text-align: center;
+    padding: 40px;
+    font-size:100px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-about:hover 
+
+{
+    outline: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.nav-home:hover
+{
+    outline: 1px solid #ccc;
+    border-radius: 3px;
+}
+.nav-store:hover{
+    outline: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.logoutbtn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing:3.5px;
+    font-weight: bold;
+    padding:8px;
+    margin:8px;
+}
+
+.logoutbtn:hover{
+    outline: 1px solid aliceblue;
+  border-radius:3px;
+}

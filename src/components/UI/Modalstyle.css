@@ -1,0 +1,15 @@
+.modal{
+    background-color: rgb(254, 244, 233);
+    position: fixed;
+    height:82%;
+    top: 12.5vh;
+    left: 67%;
+    width: 30%;
+    /* background-color: white; */
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    /* animation: slide-down 300ms ease-out forwards; */
+ 
+}

@@ -1,0 +1,55 @@
+.page-contact{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    align-items: center;
+}
+
+
+form{
+    margin: 1rem;
+    /* padding: 25px; */
+    width: 50%;
+    line-height:2.5rem
+    /* background-color:rgb(55, 78, 98) */
+}
+
+.form-div{
+    align-items: center;
+    text-align: left;
+    
+}
+
+section h1{
+    font-family: cursive;
+    text-align: center;
+    font-size:30px;
+
+}
+form label{
+    color:rgb(91, 82, 82);
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top:2rem;
+}
+form input {
+    padding: 3px;
+    width: 450px;
+    height:30px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    letter-spacing:1.5px;
+}
+
+.btn{
+    
+    height: 40px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    justify-content:center;
+    align-items: center;
+    margin:10px auto ;
+    padding: revert;
+    color: black;
+}

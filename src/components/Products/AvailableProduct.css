@@ -1,0 +1,13 @@
+.productCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+    position: relative;
+    top: 25rem;
+}
+
+.productCard > div {
+    flex:25%;
+}

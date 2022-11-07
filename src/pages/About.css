@@ -1,0 +1,30 @@
+
+
+.about{
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    top: -1rem;
+    
+   
+}
+.about h1{
+    text-align: center;
+    font-size:38px;
+    font-family:cursive;
+}
+.about p{
+    font-size: 15px;
+    margin: 15px;
+    color: rgb(139, 133, 133);
+    text-align: justify;
+}
+
+.logo{
+    border-radius: 50%;
+    margin: 26px 50px;
+    float: left;
+    height: 232px;
+    width: 270px
+}
+

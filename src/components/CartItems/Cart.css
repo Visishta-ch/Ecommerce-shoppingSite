@@ -1,0 +1,20 @@
+.list-row{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+.rmv-btn{
+    width: auto;
+    height: 30px;
+    align-self: center;
+}
+
+.list-price{
+    align-self: center;
+}
+.list-amount{
+    align-self: center;
+}
